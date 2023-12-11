@@ -66,6 +66,6 @@ class WallItem
 
     public override string ToString()
     {
-        return $"{From} at {Timestamp:d MMM HH:mm}:\n\t{Message}\n";
+        return $"{From} at {Timestamp:d MMM HH:mm}:\n  > {Message}\n";
     }
 }
