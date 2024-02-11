@@ -10,8 +10,15 @@
 
   <ItemGroup>
     <Compile Remove="linux-arm32\**" />
+    <Compile Remove="publish\**" />
     <EmbeddedResource Remove="linux-arm32\**" />
+    <EmbeddedResource Remove="publish\**" />
     <None Remove="linux-arm32\**" />
+    <None Remove="publish\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\PublishProfiles\" />
   </ItemGroup>
 
 </Project>
