@@ -1,6 +1,6 @@
 ﻿using System.Text.Json;
 
-const string datafile = "/tmp/wall.json";
+const string datafile = "/opt/bpqwall.json";
 
 var call = Console.ReadLine();
 
